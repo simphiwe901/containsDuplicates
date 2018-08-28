@@ -1,4 +1,11 @@
 
+//returns true or false 
+// based on whether an entered value
+// is prime or not
+// value must be at most 4 digits
+// and be numeric
+
+
 import java.util.*;
 
 public class primeNumber{
@@ -32,7 +39,7 @@ public class primeNumber{
 			int valueEntered = input.nextInt();
 			int length = String.valueOf(valueEntered).length();
 			if(length <= 4){
-			System.out.println(isPrime(valueEntered));
+				System.out.println(isPrime(valueEntered));
 		}
 		else{
 			System.out.println("Please Enter a number that has less than 4 digits");
